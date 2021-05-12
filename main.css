@@ -1,0 +1,30 @@
+.container {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: darkslateblue;
+}
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(203, 197, 236);
+  border-radius: 20px;
+  height: 30px;
+}
+
+.box {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10px;
+  border: solid 2px rgb(203, 197, 236);
+  width: 100%;
+}
