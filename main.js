@@ -8,9 +8,8 @@ const numberTry = document.querySelector('.js-try')
 
 
 function handlerclickbtn(){
-    
     getNumberInput()
-    numberTrycount()
+    numberTryCount()
 }
 
 function getRandomNumber() {
@@ -41,8 +40,9 @@ function getNumberInput(){
  console.log(boxtrack);
 }
 
-function numberTrycount(){
-    numberTry.innerHTML= 'estos son el numero de intetos'
+function numberTryCount(){
+    
+    numberTry.innerHTML= 'nº intentos'
     console.log(numberTry);
 }
 
